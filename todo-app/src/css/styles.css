@@ -1,0 +1,51 @@
+.head {
+  background-color: #f7f1f1;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.head .card {
+  border: 2px solid rgb(231, 226, 226);
+  border-radius: 10px;
+  height: 400px;
+  width: 500px;
+}
+.head h1 {
+  text-align: center;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.head .input {
+  border: none;
+  border-radius: 0px;
+  width: 400px;
+  height: 40px;
+}
+.head .submit-btn {
+  border: none;
+  border-radius: 0px;
+  height: 40px;
+  background-color: #f04c4c;
+  color: #f7f1f1;
+  width: 96px;
+  cursor: pointer;
+}
+
+.list {
+  background-color: #fff;
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+.list .btns {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.list .modify-btns {
+  border: none;
+  color: #000000;
+  margin: 1px 5px;
+  cursor: pointer;
+}/*# sourceMappingURL=styles.css.map */
